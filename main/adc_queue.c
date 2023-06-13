@@ -227,7 +227,7 @@ void app_main(void)
         "LED Control", // Text name for the task.
         10000,                   // Stack size in words, not bytes.
         NULL,      // Parameter passed into the task.
-        4,                       // Priority at which the task is created.
+        2,                       // Priority at which the task is created.
         &xHandle3,
         1); // Used to pass out the created task's handle.
 }
